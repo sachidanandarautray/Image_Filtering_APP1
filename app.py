@@ -15,7 +15,7 @@ if uploaded_file:
     # Convert uploaded image to OpenCV format
     image = Image.open(uploaded_file)
     image = np.array(image)
-    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
     # Select Filter
     filter_option = st.sidebar.radio(
