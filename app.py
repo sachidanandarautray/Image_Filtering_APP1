@@ -6,7 +6,7 @@ from image_processing import process_image, compress_image
 from ui_helpers import display_images, get_download_link
 
 # Streamlit UI
-st.title("🖼️ Image Filtering and Enhancement App")
+st.title("🖼️ Image Filtering and Enhancement App By Sachin")
 
 # Upload Image
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
