@@ -3,7 +3,7 @@
 # Image Filtering and Compression App
 
 This is a **Streamlit-based image processing app** that allows users to:
-- Apply various image filters (Gaussian Blur, Median Blur, etc.)
+- Apply various image filters (Gaussian Blur, Median Blur, etc using Opencv Librarary of python.)
 - Resize and compress images
 - Specify target image size (KB), resolution (e.g., 200x300), and output format
 - Download processed images
@@ -11,7 +11,7 @@ This is a **Streamlit-based image processing app** that allows users to:
 ---
 ## 📂 Folder Structure
 ```
-image_filtering_app/
+Image_Filtering_App/
 │── app.py                # Main Streamlit UI
 │── image_processing.py    # Image filtering & enhancement functions
 │── ui_helpers.py          # UI-related helper functions
